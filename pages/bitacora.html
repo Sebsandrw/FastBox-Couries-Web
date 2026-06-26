@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bitácora de acciones realizadas en FastBox Courier.">
+  <title>Bitácora de actividad | FastBox Courier</title>
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <!-- Menú principal creado desde app.js -->
+  <div id="siteHeader"></div>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Módulo nuevo</p>
+        <h1>Bitácora de actividad</h1>
+        <p>Este módulo conserva las acciones importantes realizadas dentro del sistema, como búsquedas, registros de paquetes y cambios de estado.</p>
+        <div class="breadcrumbs"><a href="../index.html">Inicio</a> / Bitácora</div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container" style="max-width:960px">
+        <div class="activity-card">
+          <div class="activity-header">
+            <div>
+              <h2>Acciones recientes</h2>
+              <p>Cada registro muestra la hora, la acción realizada y una descripción. Esta lista no se borra desde el sistema.</p>
+            </div>
+          </div>
+
+          <!-- Aquí JavaScript carga las acciones de la bitácora -->
+          <div class="activity-list" id="activityList"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="../assets/js/data.js"></script>
+  <script src="../assets/js/app.js"></script>
+</body>
+</html>

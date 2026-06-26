@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Calculadora de tarifas de FastBox Courier por peso y categoría."><title>Tarifas y calculadora | FastBox Courier</title><link rel="stylesheet" href="../assets/css/style.css"></head>
+<body>
+  <div id="siteHeader"></div>
+  <main>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Tarifas por peso</p><h1>Calcula antes de importar.</h1><p>Selecciona la categoría y el peso estimado. El resultado es referencial y permite mostrar reglas de negocio básicas del proyecto.</p><div class="breadcrumbs"><a href="../index.html">Inicio</a> / Tarifas</div></div></section>
+    <section class="section section--soft"><div class="container calculator-layout">
+      <div class="form-card"><h2>Calculadora de flete</h2><p>Las tarifas se aplican por libra, con un mínimo de envío de $8.50.</p>
+        <form id="rateCalculator" novalidate>
+          <div class="field"><label>Peso estimado (lb) <span>*</span></label><input class="input" id="calcWeight" type="number" min="0.1" step="0.1" placeholder="Ej. 3.5" required></div>
+          <div class="field" style="margin-top:17px"><label>Tipo de producto</label><select class="select" id="calcCategory"><option value="general">General — $5.25/lb</option><option value="ropa">Ropa y calzado — $4.60/lb</option><option value="tecnologia">Tecnología — $7.50/lb</option><option value="fragil">Frágil — $6.75/lb</option><option value="accesorios">Accesorios — $5.70/lb</option></select></div>
+          <div class="field" style="margin-top:17px"><label>Valor declarado (USD)</label><input class="input" id="calcValue" type="number" min="0" step="0.01" placeholder="Ej. 65"></div>
+          <div class="field" style="margin-top:17px"><label class="checkbox-line"><input id="calcInsurance" type="checkbox"><span>Agregar seguro simulado (2% del valor declarado).</span></label></div>
+          <button class="btn btn-primary" type="submit" style="width:100%;margin-top:24px">Actualizar estimación</button>
+        </form>
+      </div>
+      <aside class="price-summary"><h3>Resumen estimado</h3><div class="price-line"><span>Tarifa por libra</span><b id="calcRate">$0.00</b></div><div class="price-line"><span>Flete base</span><b id="calcBase">$0.00</b></div><div class="price-line"><span>Seguro</span><b id="calcInsuranceCost">$0.00</b></div><div class="price-line discount"><span>Descuento de plan</span><b id="calcDiscount">$0.00</b></div><div class="price-line total"><span>Total estimado</span><b id="calcTotal">$0.00</b></div><div class="notice" id="calcPlan">Sin plan activo. Puedes revisar los planes de ahorro.</div></aside>
+    </div></section>
+    <section class="section section--white"><div class="container"><div class="section-heading"><p class="eyebrow">Reglas del prototipo</p><h2>Tarifas claras para cada tipo de compra</h2><p>Esta tabla es una simplificación deliberada: sirve para demostrar el cálculo dinámico en JavaScript.</p></div><div class="feature-grid"><article class="feature-card"><div class="feature-icon">👕</div><h3>Ropa y calzado</h3><p><b>$4.60 por libra.</b> Alternativa para paquetes de prendas, zapatos y accesorios textiles.</p></article><article class="feature-card"><div class="feature-icon">💻</div><h3>Tecnología</h3><p><b>$7.50 por libra.</b> Para equipos electrónicos que requieren un manejo diferenciado.</p></article><article class="feature-card"><div class="feature-icon">🧴</div><h3>Frágil o especial</h3><p><b>$6.75 por libra.</b> Para artículos que deben declararse como delicados o de cuidado adicional.</p></article></div></div></section>
+  </main>
+  <div id="siteFooter"></div><script src="../assets/js/data.js"></script><script src="../assets/js/app.js"></script>
+</body></html>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-label="Ilustración de logística de FastBox Courier">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1f2927"/><stop offset="1" stop-color="#3e5144"/></linearGradient>
+    <linearGradient id="lime" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7ef82"/><stop offset="1" stop-color="#8fbd3d"/></linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8fbd3d" stop-opacity=".15"/><stop offset="1" stop-color="#d7ef82" stop-opacity=".4"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="12" stdDeviation="12" flood-opacity=".25"/></filter>
+  </defs>
+  <rect width="800" height="560" rx="32" fill="url(#bg)"/>
+  <circle cx="640" cy="86" r="138" fill="#8fbd3d" opacity=".12"/>
+  <circle cx="92" cy="468" r="180" fill="#d7ef82" opacity=".08"/>
+  <path d="M0 431C166 381 241 487 400 432s222-87 400-44v172H0Z" fill="url(#sea)"/>
+  <g opacity=".25" stroke="#d7ef82" stroke-width="2"><path d="M70 115h190M120 155h130M560 374h150M516 413h198"/></g>
+  <g transform="translate(72 112)" filter="url(#shadow)">
+    <rect x="0" y="128" width="438" height="180" rx="20" fill="#f5f7f2"/>
+    <rect x="245" y="0" width="174" height="150" rx="18" fill="#e5eadc"/>
+    <rect x="273" y="34" width="120" height="90" rx="10" fill="#2e3134"/>
+    <g stroke="#8fbd3d" stroke-width="5" stroke-linecap="round"><path d="M292 60h82M292 79h54M292 98h67"/></g>
+    <path d="M30 280h375" stroke="#2e3134" stroke-width="16" stroke-linecap="round"/>
+    <circle cx="96" cy="297" r="34" fill="#2e3134"/><circle cx="96" cy="297" r="14" fill="#d7ef82"/>
+    <circle cx="355" cy="297" r="34" fill="#2e3134"/><circle cx="355" cy="297" r="14" fill="#d7ef82"/>
+    <rect x="45" y="155" width="175" height="109" rx="12" fill="url(#lime)"/>
+    <path d="M45 185h175M132 155v109" stroke="#2e3134" stroke-width="5" opacity=".65"/>
+    <path d="m97 209 35 20 35-20" fill="none" stroke="#f8fbf3" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <g transform="translate(506 186)" filter="url(#shadow)">
+    <path d="M20 107 131 71l118 47-114 35Z" fill="#eff4e6"/>
+    <path d="m20 107 115 45v128L20 234Z" fill="#c5dc76"/>
+    <path d="m135 152 114-34v118l-114 44Z" fill="#8fbd3d"/>
+    <path d="m46 115 89 31 88-27" fill="none" stroke="#2e3134" stroke-width="5" opacity=".6"/>
+    <path d="M135 152v128" stroke="#2e3134" stroke-width="5" opacity=".6"/>
+    <path d="m92 190 28 14 30-12" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(535 73)">
+    <path d="M0 35 72 0l35 10-31 20h55l16 13-68 11-35 30-9-2 18-28-43 2Z" fill="#d7ef82"/>
+    <path d="m43 51 68-8" stroke="#2e3134" stroke-width="3" opacity=".55"/>
+  </g>
+  <g transform="translate(515 370)">
+    <rect width="196" height="78" rx="17" fill="#2e3134" opacity=".95"/>
+    <circle cx="38" cy="39" r="20" fill="url(#lime)"/>
+    <path d="m28 39 7 7 13-15" fill="none" stroke="#2e3134" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="75" y="34" fill="#f9fcf4" font-family="Arial, sans-serif" font-size="17" font-weight="700">Rastreo activo</text>
+    <text x="75" y="55" fill="#cdd3c7" font-family="Arial, sans-serif" font-size="12">Tu paquete se mueve</text>
+  </g>
+</svg>

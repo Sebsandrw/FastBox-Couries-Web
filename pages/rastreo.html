@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Consulta el estado de un paquete FastBox mediante su guía local.">
+  <title>Rastreo de pedidos | FastBox Courier</title><link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div id="siteHeader"></div>
+  <main>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Rastreo de envío</p><h1>Consulta la ruta de tu paquete.</h1><p>Escribe la guía local que recibiste al registrar la compra. El resultado muestra las etapas que el administrador puede actualizar.</p><div class="breadcrumbs"><a href="../index.html">Inicio</a> / Rastreo</div></div></section>
+    <section class="section section--soft"><div class="container" style="max-width:850px">
+      <div class="form-card"><h2>Rastrear guía FastBox</h2><p>Ejemplos para probar: <b>FBX-123456</b>, <b>FBX-987654</b> y <b>FBX-456789</b>.</p>
+        <form id="trackingForm" class="inline-form"><input id="trackingGuide" class="input" name="guide" placeholder="Ej. FBX-123456" required><button class="btn btn-primary" type="submit">Buscar paquete</button></form>
+      </div>
+      <div class="status-result" id="trackingResult"></div>
+    </div></section>
+    <section class="section section--white"><div class="container"><div class="feature-grid"><article class="feature-card"><div class="feature-icon">1</div><h3>Guía local</h3><p>La guía FBX se genera automáticamente cuando registras una prealerta en el sistema.</p></article><article class="feature-card"><div class="feature-icon">2</div><h3>Actualización</h3><p>El administrador cambia el estado en su panel; el cambio aparece inmediatamente al rastrear.</p></article><article class="feature-card"><div class="feature-icon">3</div><h3>Entrega</h3><p>La etapa “Listo para entrega” indica que el paquete puede ser entregado al cliente.</p></article></div></div></section>
+  </main>
+  <div id="siteFooter"></div><script src="../assets/js/data.js"></script><script src="../assets/js/app.js"></script>
+</body>
+</html>

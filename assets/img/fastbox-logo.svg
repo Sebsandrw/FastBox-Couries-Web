@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 72" role="img" aria-label="FastBox Courier">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#c5e86c"/><stop offset="1" stop-color="#8fbd3d"/></linearGradient>
+  </defs>
+  <rect width="300" height="72" rx="14" fill="#2e3134"/>
+  <g transform="translate(14 12)">
+    <path d="M28 1 50 13v25L28 50 6 38V13L28 1Z" fill="url(#g)"/>
+    <path d="m6 13 22 12 22-12M28 25v25" fill="none" stroke="#2e3134" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M20 7 42 19" stroke="#f8fbf3" stroke-width="3" opacity=".9"/>
+    <circle cx="5" cy="27" r="5" fill="#f8fbf3"/><circle cx="51" cy="27" r="5" fill="#f8fbf3"/>
+  </g>
+  <text x="78" y="33" fill="#fff" font-family="Arial, sans-serif" font-size="25" font-weight="700">FastBox</text>
+  <text x="79" y="52" fill="#c9cbcd" font-family="Arial, sans-serif" font-size="10" letter-spacing="4">COURIER</text>
+</svg>

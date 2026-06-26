@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Registra una compra internacional o prealerta en FastBox Courier.">
+  <title>Registrar compra | FastBox Courier</title><link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+  <div id="siteHeader"></div>
+  <main>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Prealerta de compra</p><h1>Avísanos qué paquete vamos a recibir.</h1><p>Completa los datos básicos de tu compra. El sistema genera una guía local y guarda el pedido para consultarlo más tarde.</p><div class="breadcrumbs"><a href="../index.html">Inicio</a> / Registrar paquete</div></div></section>
+    <section class="section section--soft"><div class="container" style="max-width:960px">
+      <div class="form-card"><h2>Datos del paquete</h2><p>Los campos con asterisco son obligatorios. El peso es una estimación: se puede ajustar cuando el paquete llegue a bodega.</p>
+        <div id="cartNotice" class="notice hidden">Tomamos los productos del carrito y completamos el peso y el valor estimado. Puedes modificar cualquier dato antes de registrar.</div>
+        <form id="packageForm" novalidate style="margin-top:20px">
+          <div class="form-grid">
+            <div class="field"><label>Nombre de quien recibe <span>*</span></label><input class="input" id="recipientName" name="recipient" required placeholder="Nombre completo"></div>
+            <div class="field"><label>Tienda donde compraste <span>*</span></label><input class="input" name="store" required placeholder="Ej. Amazon, Shein o tienda online"></div>
+            <div class="field full"><label>Descripción del contenido <span>*</span></label><textarea class="textarea" id="packageDescription" name="description" required placeholder="Ej. 2 camisetas y un reloj deportivo"></textarea></div>
+            <div class="field"><label>Tracking original de la tienda</label><input class="input" name="originalTracking" placeholder="Ej. USPS-9400... (opcional)"></div>
+            <div class="field"><label>Categoría <span>*</span></label><select class="select" id="packageCategory" name="category" required><option value="general">General</option><option value="ropa">Ropa y calzado</option><option value="tecnologia">Tecnología</option><option value="fragil">Artículo frágil</option><option value="accesorios">Accesorios</option></select></div>
+            <div class="field"><label>Peso estimado en libras <span>*</span></label><input class="input" id="packageWeight" name="weight" type="number" min="0.1" step="0.1" required placeholder="Ej. 2.5"></div>
+            <div class="field"><label>Valor declarado (USD)</label><input class="input" id="declaredValue" name="declaredValue" type="number" min="0" step="0.01" placeholder="Ej. 49.90"></div>
+            <div class="field full"><label class="checkbox-line"><input name="insured" type="checkbox"><span>Deseo incluir seguro simulado (2% del valor declarado) en la estimación.</span></label></div>
+            <div class="field full"><label class="checkbox-line"><input type="checkbox" required><span>Confirmo que la información ingresada es correcta y entiendo que esta es una simulación académica. <b> *</b></span></label></div>
+          </div>
+          <div style="display:flex;justify-content:flex-end;margin-top:24px"><button class="btn btn-primary" type="submit">Registrar pedido y generar guía</button></div>
+        </form>
+      </div>
+      <div class="status-result" id="registrationResult"></div>
+    </div></section>
+    <section class="section section--white"><div class="container"><div class="section-heading"><p class="eyebrow">Antes de enviar</p><h2>Información que ayuda a una recepción ordenada</h2></div><div class="feature-grid"><article class="feature-card"><div class="feature-icon">✦</div><h3>Usa el casillero correcto</h3><p>En una implementación real, el cliente colocaría su código de casillero en la dirección de la tienda.</p></article><article class="feature-card"><div class="feature-icon">⚖</div><h3>Declara el peso aproximado</h3><p>La calculadora y la prealerta trabajan con libras. Bodega puede modificar el valor cuando confirme el paquete.</p></article><article class="feature-card"><div class="feature-icon">✓</div><h3>Conserva la guía FastBox</h3><p>Luego de registrar, usa el número FBX generado para revisar el avance del envío.</p></article></div></div></section>
+  </main>
+  <div id="siteFooter"></div><script src="../assets/js/data.js"></script><script src="../assets/js/app.js"></script>
+</body>
+</html>

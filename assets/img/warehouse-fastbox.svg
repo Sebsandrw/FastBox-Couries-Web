@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440" role="img" aria-label="Bodega y paquetes FastBox">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f7f8f4"/><stop offset="1" stop-color="#e9eee0"/></linearGradient>
+    <linearGradient id="box" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d7ef82"/><stop offset="1" stop-color="#8fbd3d"/></linearGradient>
+  </defs>
+  <rect width="680" height="440" rx="26" fill="url(#wall)"/>
+  <path d="M0 358 680 318v122H0Z" fill="#dde5d5"/>
+  <g stroke="#c4cfb9" stroke-width="3"><path d="M56 76h568M56 124h568M56 172h568"/></g>
+  <g transform="translate(74 109)">
+    <path d="M0 202h502" stroke="#2e3134" stroke-width="18" stroke-linecap="round"/>
+    <path d="M38 35h410v170H38z" fill="none" stroke="#2e3134" stroke-width="12"/>
+    <g stroke="#2e3134" stroke-width="9"><path d="M165 35v170M313 35v170M38 92h410M38 149h410"/></g>
+    <g fill="url(#box)">
+      <rect x="62" y="52" width="72" height="32" rx="4"/><rect x="190" y="51" width="92" height="34" rx="4"/><rect x="338" y="49" width="76" height="36" rx="4"/>
+      <rect x="55" y="107" width="90" height="36" rx="4"/><rect x="189" y="106" width="74" height="38" rx="4"/><rect x="330" y="106" width="92" height="37" rx="4"/>
+      <rect x="68" y="164" width="65" height="32" rx="4"/><rect x="183" y="163" width="95" height="34" rx="4"/><rect x="335" y="162" width="76" height="35" rx="4"/>
+    </g>
+  </g>
+  <g transform="translate(490 235)">
+    <rect x="0" y="44" width="112" height="60" rx="11" fill="#2e3134"/>
+    <path d="M16 44 56 22l40 22-40 22Z" fill="#d7ef82"/>
+    <path d="M56 66v38" stroke="#8fbd3d" stroke-width="5"/>
+    <circle cx="25" cy="117" r="17" fill="#2e3134"/><circle cx="89" cy="117" r="17" fill="#2e3134"/>
+  </g>
+  <text x="76" y="391" fill="#2e3134" font-family="Arial, sans-serif" font-size="20" font-weight="700">Recepción organizada en bodega</text>
+</svg>
