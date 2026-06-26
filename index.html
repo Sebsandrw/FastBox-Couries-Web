@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="FastBox Courier: prototipo de casillero internacional, tarifas por peso y rastreo de envíos.">
+  <title>FastBox Courier | Casillero internacional</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="siteHeader"></div>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-copy">
+          <p class="eyebrow">Casillero internacional · Guayaquil</p>
+          <h1>Compra afuera. <span>Recibe con claridad.</span></h1>
+          <p>FastBox Courier es un prototipo de servicio de envíos e importaciones por peso. Desde aquí puedes prealertar una compra, calcular el flete, guardar pedidos y revisar el estado de cada guía.</p>
+          <div class="hero-actions">
+            <a href="pages/registrar-paquete.html" class="btn btn-primary">Registrar una compra <span>→</span></a>
+            <a href="pages/tarifas.html" class="btn btn-outline-light">Calcular tarifa</a>
+          </div>
+          <div class="hero-mini-stats">
+            <div><strong>Por libra</strong><span>Tarifa transparente</span></div>
+            <div><strong>Con guía</strong><span>Rastreo por etapas</span></div>
+            <div><strong>En línea</strong><span>Datos simulados editables</span></div>
+          </div>
+        </div>
+        <div class="hero-visual"><img src="assets/img/hero-fastbox.svg" alt="Ilustración de envío y rastreo FastBox"></div>
+      </div>
+    </section>
+
+    <section class="tracking-band" id="rastrear">
+      <div class="container">
+        <div class="tracking-box">
+          <div>
+            <p class="eyebrow">Seguimiento simple</p>
+            <h2>¿Dónde está tu paquete?</h2>
+            <p>Ingresa la guía FastBox y revisa la etapa actual del envío. Prueba con <b>FBX-123456</b>.</p>
+          </div>
+          <div>
+            <form class="inline-form" id="homeTrackingForm">
+              <input class="input" name="guide" aria-label="Número de guía" placeholder="Ej. FBX-123456" required>
+              <button class="btn btn-dark" type="submit">Rastrear ahora</button>
+            </form>
+            <div class="status-result" id="homeTrackingResult"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">Una propuesta pensada para el cliente</p>
+          <h2>Lo esencial de un courier online, explicado sin complicaciones</h2>
+          <p>El sitio usa información de prueba para representar cómo una empresa puede organizar compras internacionales, paquetes y entregas locales.</p>
+        </div>
+        <div class="feature-grid feature-grid--four">
+          <article class="feature-card"><div class="feature-icon">⚖</div><h3>Precio por peso</h3><p>La calculadora estima el flete por libras y aplica una tarifa según el tipo de artículo.</p></article>
+          <article class="feature-card"><div class="feature-icon">⌕</div><h3>Rastreo por guía</h3><p>Cada pedido recibe un código FastBox para revisar su recorrido desde la prealerta hasta la entrega.</p></article>
+          <article class="feature-card"><div class="feature-icon">▣</div><h3>Panel de control</h3><p>Cliente y administrador tienen vistas distintas para consultar, editar y actualizar datos del proceso.</p></article>
+          <article class="feature-card"><div class="feature-icon">☷</div><h3>Bitácora de actividad</h3><p>Guarda las búsquedas, registros y cambios realizados dentro del prototipo.</p><a href="pages/bitacora.html" class="btn btn-outline btn-sm" style="margin-top:14px">Ver bitácora</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="nosotros">
+      <div class="container split">
+        <div class="split-copy">
+          <p class="eyebrow">Sobre FastBox Courier</p>
+          <h2>Un emprendimiento digital para ordenar el proceso de importar.</h2>
+          <p>FastBox Courier nace como una idea de sistema para personas que compran productos en el exterior y necesitan saber, sin llamadas ni hojas de cálculo, qué recibieron, cuánto pesa y cuál será el costo aproximado de traerlo a Ecuador.</p>
+          <p>La propuesta se enfoca en un casillero internacional con información clara: aceptación del paquete a nombre del cliente, número de guía local, estado del envío y facturación simulada al momento de entregar.</p>
+          <ul class="check-list">
+            <li>Prealerta con tienda, peso estimado y tracking original.</li>
+            <li>Tarifas separadas para ropa, tecnología, accesorios y artículos frágiles.</li>
+            <li>Soporte para preguntas relacionadas con pedidos o cobros.</li>
+          </ul>
+          <a href="pages/contacto.html" class="btn btn-dark">Hablar con soporte</a>
+        </div>
+        <div class="split-image"><img src="assets/img/warehouse-fastbox.svg" alt="Ilustración de bodega organizada con paquetes"></div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Proceso de compra</p><h2>De tu tienda favorita a tu puerta</h2><p>En una plataforma real, cada una de estas etapas se conectaría a una base de datos, facturación y notificaciones.</p></div>
+        <div class="process-grid">
+          <article class="process-step"><h3>Compra</h3><p>El cliente compra en una tienda online y usa su casillero como destinatario.</p></article>
+          <article class="process-step"><h3>Prealerta</h3><p>Registra qué compró, dónde lo hizo y el peso aproximado de la caja.</p></article>
+          <article class="process-step"><h3>Recepción</h3><p>La bodega valida el paquete, actualiza el peso y genera la guía local.</p></article>
+          <article class="process-step"><h3>Entrega</h3><p>El usuario consulta el estado, confirma el pago y retira o recibe su compra.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Ofertas de ejemplo</p><h2>Productos para iniciar una prealerta</h2><p>El catálogo es demostrativo: agrega artículos al carrito y conviértelos en un pedido registrado.</p></div>
+        <div class="offer-grid">
+          <article class="offer-card"><span class="offer-tag">Tecnología</span><h3>Audífonos y accesorios para tu día a día.</h3><p>Productos pequeños con peso estimado y tarifa especial de tecnología.</p><a class="btn btn-primary btn-sm" href="pages/catalogo.html">Ver catálogo</a></article>
+          <article class="offer-card"><span class="offer-tag">Ropa</span><h3>Paquetes de temporada con descuento.</h3><p>Combos de camisetas, chaquetas y calzado para agrupar una sola compra.</p><a class="btn btn-primary btn-sm" href="pages/catalogo.html">Ver productos</a></article>
+          <article class="offer-card"><span class="offer-tag">Beneficio</span><h3>Plan Plus para reducir tu flete.</h3><p>Una suscripción simulada con 10% de ahorro en la calculadora de envíos.</p><a class="btn btn-primary btn-sm" href="pages/planes.html">Conocer planes</a></article>
+          <article class="offer-card"><span class="offer-tag">Soporte</span><h3>¿Tienes una duda antes de comprar?</h3><p>Abre una consulta y guarda un código de soporte para darle seguimiento.</p><a class="btn btn-primary btn-sm" href="pages/contacto.html">Escribir consulta</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--white">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">Planes de membresía</p><h2>Ahorra cuando importas con frecuencia</h2><p>Los planes son una simulación funcional: al activarlos se aplica el descuento en la calculadora y se muestra en el panel del cliente.</p></div>
+        <div class="plan-preview">
+          <article class="plan-mini"><h3>Básico</h3><div class="plan-price">$3.99 <small>/ mes</small></div><ul><li>5% de descuento en flete</li><li>Rastreo por guía</li><li>Soporte estándar</li></ul><a href="pages/planes.html" class="btn btn-outline btn-sm">Ver detalle</a></article>
+          <article class="plan-mini highlight"><p class="eyebrow">Más elegido</p><h3>Plus</h3><div class="plan-price">$7.99 <small>/ mes</small></div><ul><li>10% de descuento en flete</li><li>Prioridad en soporte</li><li>Historial en el panel</li></ul><a href="pages/planes.html" class="btn btn-primary btn-sm">Elegir plan</a></article>
+          <article class="plan-mini"><h3>Pro</h3><div class="plan-price">$12.99 <small>/ mes</small></div><ul><li>15% de descuento en flete</li><li>Consultas prioritarias</li><li>Beneficios para compras frecuentes</li></ul><a href="pages/planes.html" class="btn btn-outline btn-sm">Ver detalle</a></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta"><div class="container"><h2>Tu próxima compra puede empezar aquí.</h2><p>Registra una prealerta con datos simulados y comprueba cómo se actualiza el rastreo desde el panel de administración.</p><a href="pages/login.html" class="btn btn-primary">Entrar al sistema</a></div></section>
+  </main>
+
+  <div id="siteFooter"></div>
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
